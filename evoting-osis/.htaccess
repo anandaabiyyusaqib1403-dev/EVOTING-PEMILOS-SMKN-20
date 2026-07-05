@@ -1,0 +1,12 @@
+DirectoryIndex index.php
+Options -Indexes
+
+<FilesMatch "^(composer\.(json|lock)|README\.md|preview\.html)$">
+    Require all denied
+</FilesMatch>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteRule ^(config|includes|database|design-concepts)(/|$) - [F,L]
+    RewriteRule ^uploads/.*\.(php|phtml|phar|php[0-9])$ - [F,L,NC]
+</IfModule>

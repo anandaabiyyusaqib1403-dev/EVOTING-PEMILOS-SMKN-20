@@ -23,6 +23,7 @@ evoting-osis/backup-*.sql
 *.dump.sql
 *.xlsx
 *.xls
+*.zip
 
 # Local server/cache artifacts
 .phpunit.result.cache
