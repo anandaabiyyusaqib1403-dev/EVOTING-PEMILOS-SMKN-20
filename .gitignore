@@ -1,0 +1,30 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Environment and local runtime files
+.env
+.env.*
+!.env.example
+*.log
+
+# PHP dependencies
+vendor/
+evoting-osis/vendor/
+composer.phar
+
+# Generated uploads and exports
+uploads/
+evoting-osis/uploads/
+backup-*.sql
+evoting-osis/backup-*.sql
+*.dump.sql
+*.xlsx
+*.xls
+
+# Local server/cache artifacts
+.phpunit.result.cache
+cache/
+tmp/
