@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="480" viewBox="0 0 640 480" role="img" aria-label="Foto kandidat">
+  <rect width="640" height="480" fill="#eaf1ff"/>
+  <circle cx="320" cy="190" r="74" fill="#9bb7ec"/>
+  <path d="M170 418c28-84 86-126 150-126s122 42 150 126" fill="#2869d8"/>
+  <path d="M92 92h456v296H92z" fill="none" stroke="#c8d8f4" stroke-width="12" rx="22"/>
+</svg>
+

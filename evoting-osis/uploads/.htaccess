@@ -1,0 +1,4 @@
+Require all granted
+<FilesMatch "\.ph(p[0-9]?|tml)$">
+    Require all denied
+</FilesMatch>

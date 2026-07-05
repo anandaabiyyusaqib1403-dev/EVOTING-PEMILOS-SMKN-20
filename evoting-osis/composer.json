@@ -1,0 +1,10 @@
+{
+  "name": "school/evoting-osis",
+  "description": "Aplikasi E-Voting Ketua OSIS berbasis PHP Native dan MySQL.",
+  "type": "project",
+  "require": {
+    "php": ">=8.0",
+    "phpoffice/phpspreadsheet": "^2.0"
+  }
+}
+
